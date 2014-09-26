@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0ED40E19D539D700120E69 /* Employees.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0ED40D19D539D700120E69 /* Employees.m */; };
+		8A0ED41119D539D800120E69 /* Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0ED41019D539D800120E69 /* Transactions.m */; };
 		8A2C8D9219D436A700629895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8D9119D436A700629895 /* main.m */; };
 		8A2C8D9519D436A700629895 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8D9419D436A700629895 /* AppDelegate.m */; };
 		8A2C8D9819D436A700629895 /* CoreDataAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8D9619D436A700629895 /* CoreDataAssignment.xcdatamodeld */; };
@@ -15,6 +17,8 @@
 		8A2C8DA019D436A700629895 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C8D9F19D436A700629895 /* Images.xcassets */; };
 		8A2C8DA319D436A700629895 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C8DA119D436A700629895 /* LaunchScreen.xib */; };
 		8A2C8DAF19D436A700629895 /* CoreDataAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8DAE19D436A700629895 /* CoreDataAssignmentTests.m */; };
+		8A2C8DBA19D43A0D00629895 /* EmployeeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8DB919D43A0D00629895 /* EmployeeTableViewController.m */; };
+		8A2C8DBD19D43A4900629895 /* TransactionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8DBC19D43A4900629895 /* TransactionTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A0ED40C19D539D700120E69 /* Employees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employees.h; sourceTree = "<group>"; };
+		8A0ED40D19D539D700120E69 /* Employees.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employees.m; sourceTree = "<group>"; };
+		8A0ED40F19D539D800120E69 /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transactions.h; sourceTree = "<group>"; };
+		8A0ED41019D539D800120E69 /* Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transactions.m; sourceTree = "<group>"; };
 		8A2C8D8C19D436A700629895 /* CoreDataAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2C8D9019D436A700629895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A2C8D9119D436A700629895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +50,10 @@
 		8A2C8DA819D436A700629895 /* CoreDataAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2C8DAD19D436A700629895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A2C8DAE19D436A700629895 /* CoreDataAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataAssignmentTests.m; sourceTree = "<group>"; };
+		8A2C8DB819D43A0D00629895 /* EmployeeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeTableViewController.h; sourceTree = "<group>"; };
+		8A2C8DB919D43A0D00629895 /* EmployeeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeTableViewController.m; sourceTree = "<group>"; };
+		8A2C8DBB19D43A4900629895 /* TransactionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionTableViewController.h; sourceTree = "<group>"; };
+		8A2C8DBC19D43A4900629895 /* TransactionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,11 @@
 		8A2C8D8319D436A700629895 = {
 			isa = PBXGroup;
 			children = (
+				8A0ED40F19D539D800120E69 /* Transactions.h */,
+				8A0ED41019D539D800120E69 /* Transactions.m */,
+				8A0ED40C19D539D700120E69 /* Employees.h */,
+				8A0ED40D19D539D700120E69 /* Employees.m */,
+				8A2C8D9619D436A700629895 /* CoreDataAssignment.xcdatamodeld */,
 				8A2C8D8E19D436A700629895 /* CoreDataAssignment */,
 				8A2C8DAB19D436A700629895 /* CoreDataAssignmentTests */,
 				8A2C8D8D19D436A700629895 /* Products */,
@@ -88,9 +105,12 @@
 				8A2C8D9919D436A700629895 /* ViewController.h */,
 				8A2C8D9A19D436A700629895 /* ViewController.m */,
 				8A2C8D9C19D436A700629895 /* Main.storyboard */,
+				8A2C8DBB19D43A4900629895 /* TransactionTableViewController.h */,
+				8A2C8DBC19D43A4900629895 /* TransactionTableViewController.m */,
+				8A2C8DB819D43A0D00629895 /* EmployeeTableViewController.h */,
+				8A2C8DB919D43A0D00629895 /* EmployeeTableViewController.m */,
 				8A2C8D9F19D436A700629895 /* Images.xcassets */,
 				8A2C8DA119D436A700629895 /* LaunchScreen.xib */,
-				8A2C8D9619D436A700629895 /* CoreDataAssignment.xcdatamodeld */,
 				8A2C8D8F19D436A700629895 /* Supporting Files */,
 			);
 			path = CoreDataAssignment;
@@ -222,8 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2C8DBD19D43A4900629895 /* TransactionTableViewController.m in Sources */,
+				8A2C8DBA19D43A0D00629895 /* EmployeeTableViewController.m in Sources */,
+				8A0ED41119D539D800120E69 /* Transactions.m in Sources */,
 				8A2C8D9519D436A700629895 /* AppDelegate.m in Sources */,
 				8A2C8D9219D436A700629895 /* main.m in Sources */,
+				8A0ED40E19D539D700120E69 /* Employees.m in Sources */,
 				8A2C8D9B19D436A700629895 /* ViewController.m in Sources */,
 				8A2C8D9819D436A700629895 /* CoreDataAssignment.xcdatamodeld in Sources */,
 			);
@@ -416,6 +440,7 @@
 				8A2C8DB419D436A700629895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A2C8DB519D436A700629895 /* Build configuration list for PBXNativeTarget "CoreDataAssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				8A2C8DB719D436A700629895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -434,7 +460,8 @@
 				8A2C8D9719D436A700629895 /* CoreDataAssignment.xcdatamodel */,
 			);
 			currentVersion = 8A2C8D9719D436A700629895 /* CoreDataAssignment.xcdatamodel */;
-			path = CoreDataAssignment.xcdatamodeld;
+			name = CoreDataAssignment.xcdatamodeld;
+			path = CoreDataAssignment/CoreDataAssignment.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
